@@ -10,8 +10,7 @@
 
 @implementation RCTConvert (RNPStatus)
 
-RCT_ENUM_CONVERTER(RNPType, (@{ @"location" : @(RNPTypeLocation),
-                                @"camera" : @(RNPTypeCamera),
+RCT_ENUM_CONVERTER(RNPType, (@{ @"camera" : @(RNPTypeCamera),
                                 @"microphone" : @(RNPTypeMicrophone),
                                 @"photo" : @(RNPTypePhoto),
                                 @"notification" : @(RNPTypeNotification),
